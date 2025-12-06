@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="661.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+    <children>
+        <ImageView fitHeight="267.0" fitWidth="270.0" layoutX="282.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../../../../../Documents/killua.jpg" />
+            </image>
+        </ImageView>
+        <Text layoutX="71.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kullua Zoldyck">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="34.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Killua is a highly specialized Transmuter whose primary Hatsu involves altering his Nen aura to possess the properties of electricity, a talent derived from years of enduring electrical torture during his assassin training. His fundamental Nen technique is the Lightning Palm (Izutsushi), where he infuses his hands with electrical energy to shock and paralyze opponents, which can be extended into the long-range Thunderbolt (Narukami) attack. His ultimate skill is Godspeed (Kanmuru), which uses his electrical aura to stimulate his nervous system for instantaneous reaction and movement, splitting into Speed of Lightning for travel and Whirlwind for automatic reaction." textAlignment="JUSTIFY" wrappingWidth="533.0">
+            <font>
+                <Font name="DejaVu Serif" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="29.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Killua Zoldyck is the deuteragonist and Gon's best friend, introduced as a runaway heir to the infamous Zoldyck family of assassins, a background that endowed him with unmatched speed and resilience but also a deep-seated fear implanted by his older brother." textAlignment="JUSTIFY" wrappingWidth="233.0">
+            <font>
+                <Font name="DejaVu Serif" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="230.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nen Abilities" textAlignment="CENTER">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+            </font>
+        </Text>
+      <Button fx:id="hone" layoutX="270.0" layoutY="621.0" mnemonicParsing="false" text="Home" />
+    </children>
+</AnchorPane>

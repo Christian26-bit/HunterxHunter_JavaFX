@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="661.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME" fx:id="rootPane">
+    <children>
+        <ImageView fitHeight="267.0" fitWidth="270.0" layoutX="282.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/kurapika.jpg" />
+            </image>
+        </ImageView>
+        <Text layoutX="90.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freccs">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="20.0" />
+            </font>
+        </Text>
+        <Text layoutX="34.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kurapika’s Nen abilities make him exceptionally powerful, especially when his eyes turn scarlet, allowing him to use all Nen categories with masterful efficiency. His most iconic technique, Chain Jail, is an unbreakable chains ability that can restrain even the strongest foes, though he reserves its full power exclusively for the Phantom Troupe. Despite his controlled and collected demeanor, Kurapika struggles with the growing darkness in his heart, torn between vengeance and the values he once held dear." textAlignment="JUSTIFY" wrappingWidth="533.0">
+            <font>
+                <Font name="DejaVu Serif" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="29.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kurapika is one of the central protagonists in Hunter x Hunter, driven by a deep sense of justice and an unbreakable resolve rooted in the tragic annihilation of his clan, the Kurta" textAlignment="JUSTIFY" wrappingWidth="233.0">
+            <font>
+                <Font name="DejaVu Serif" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="230.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nen Abilities" textAlignment="CENTER">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+            </font>
+        </Text>
+      <Button fx:id="Home" layoutX="271.0" layoutY="621.0" mnemonicParsing="false" text="Home" />
+    </children>
+</AnchorPane>
