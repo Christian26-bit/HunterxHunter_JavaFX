@@ -20,16 +20,15 @@ public class HelloApplication extends Application {
     }
 
     @FXML private AnchorPane Homepage;
-    @FXML private AnchorPane rootPane;
 
     public void goToConjurer() throws IOException {
-        new SceneChanger(rootPane, "/com/example/hunterxhunterjavafx/Conjuration-view.fxml");
+        new SceneChanger(Homepage, "/com/example/hunterxhunterjavafx/Conjuration-view.fxml");
     }
     public void goToEnhancer() throws IOException {
         new SceneChanger(Homepage, "/com/example/hunterxhunterjavafx/Enhancer-view.fxml");
     }
     public void goToManipulator() throws IOException {
-        new SceneChanger(Homepage, "/com/example/hunterxhunterjavafx/Manipulator-view.fxml");
+        new SceneChanger(Homepage, "/com/example/hunterxhunterjavafx/Manipulation-view.fxml");
     }
     public void goToSpecialization() throws IOException {
         new SceneChanger(Homepage, "/com/example/hunterxhunterjavafx/Specialization-view.fxml");

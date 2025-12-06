@@ -7,24 +7,24 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="661.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" fx:controller="com.example.hunterxhunterjavafx.ManipulationController" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="Homepage" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hunterxhunterjavafx.ManipulationController">
     <children>
         <ImageView fitHeight="267.0" fitWidth="270.0" layoutX="282.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@Images/gon.jpg" />
+                <Image url="@Images/kalluto.jpg" />
             </image>
         </ImageView>
-        <Text layoutX="90.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freccs">
+        <Text layoutX="80.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kaluto Zoldyck">
             <font>
                 <Font name="DejaVu Sans Condensed Bold" size="20.0" />
             </font>
         </Text>
-        <Text layoutX="34.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freecss is an incredibly talented Enhancer—one of the six types of Nen users—meaning his aura is best suited for reinforcing and strengthening his physical body and raw attack power. His signature and only developed Nen ability is Jajanken (Rock-Paper-Scissors), a versatile Hatsu technique that utilizes three different Nen categories for varying ranges: Rock (Guu) is his ultimate close-range attack, using maximum Enhancement to deliver an incredibly powerful, aura-charged punch; Scissors (Choki) is a mid-range attack utilizing Transmutation to shape his aura into a sharp blade extending from his fingers; and Paper (Paa) is a long-range blast using Emission to fire a ball of pure aura." textAlignment="JUSTIFY" wrappingWidth="533.0">
+        <Text layoutX="34.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kaluto is introduced as a member of the Phantom Troupe, a notorious group of criminals, where he plays a more subtle, but pivotal role. Kaluto is notable for his unique Nen ability, Shalnark's Manipulation, which allows him to control people through an object called a &quot;mobile phone,&quot; using it to impose his will on others. His ability also works on manipulating the Troupe itself and leveraging situations to their advantage. A master of stealth and deception, Kaluto is extremely intelligent, composed, and calculating, making him a dangerous force despite his youth. His proficiency in Nen manipulation gives him a strong advantage in combat, and his ability to blend in or work behind the scenes." textAlignment="JUSTIFY" wrappingWidth="533.0">
             <font>
                 <Font name="DejaVu Serif" size="15.0" />
             </font>
         </Text>
-        <Text layoutX="29.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freecss is the main protagonist of Hunter x Hunter—a character defined by his unwavering optimism, boundless energy, and deep connection to the natural world." textAlignment="JUSTIFY" wrappingWidth="233.0">
+        <Text layoutX="29.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kaluto Zoldyck is a relatively mysterious character from Hunter x Hunter, hailing from the infamous Zoldyck family of assassins. As one of the younger members of this ruthless family, Kaluto has a quiet yet intense presence." textAlignment="JUSTIFY" wrappingWidth="233.0">
             <font>
                 <Font name="DejaVu Serif" size="15.0" />
             </font>
@@ -34,6 +34,6 @@
                 <Font name="DejaVu Sans Condensed Bold" size="16.0" />
             </font>
         </Text>
-      <Button fx:id="home" layoutX="270.0" layoutY="621.0" mnemonicParsing="false" text="Home" onAction="#goToHome"/>
+      <Button fx:id="home" layoutX="270.0" layoutY="621.0" mnemonicParsing="false" onAction="#goToHome" text="Home" />
     </children>
 </AnchorPane>

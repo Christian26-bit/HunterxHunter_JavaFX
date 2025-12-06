@@ -7,8 +7,8 @@ import java.io.IOException;
 
 public class ConjurerController {
     @FXML
-    private AnchorPane rootPane;
+    private AnchorPane Homepage;
     public void goToHome() throws IOException {
-        new SceneChanger(rootPane, "/com/example/hunterxhunterjavafx/Main.fxml");
+        new SceneChanger(Homepage, "/com/example/hunterxhunterjavafx/Main.fxml");
     }
 }

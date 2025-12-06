@@ -39,7 +39,6 @@
          <image>
             <Image url="@Images/kurapika.jpg" />
          </image></ImageView>
-      <Text layoutX="79.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enhancer" />
       <Text layoutX="244.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0">
          <font>
             <Font name="DejaVu Sans Mono Bold" size="13.0" />
@@ -57,10 +56,11 @@
          </font>
       </Text>
       <Text layoutX="66.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freecss" />
-      <Button layoutX="247.0" layoutY="284.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Transmutator" onAction="#goToTransmutator"/>
-      <Button layoutX="442.0" layoutY="283.0" mnemonicParsing="false" style="-fx-background-color: trnasparent;" text="Enhancer" onAction="#goToEnhancer"/>
-      <Button layoutX="59.0" layoutY="504.0" mnemonicParsing="false" style="-fx-background-color: trnasparent;" text="Specialization" onAction="#goToSpecialization"/>
-      <Button layoutX="438.0" layoutY="505.0" mnemonicParsing="false" style="-fx-background-color: trnasparent;" text="Conjuration" onAction="#goToConjurer"/>
-      <Button layoutX="257.0" layoutY="504.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Emmiter" onAction="#goToEmmiter"/>
+      <Button layoutX="247.0" layoutY="284.0" mnemonicParsing="false" onAction="#goToTransmutator" style="-fx-background-color: transparent;" text="Transmutator" />
+      <Button layoutX="442.0" layoutY="283.0" mnemonicParsing="false" onAction="#goToManipulator" style="-fx-background-color: trnasparent;" text="Manipulation" />
+      <Button layoutX="59.0" layoutY="504.0" mnemonicParsing="false" onAction="#goToSpecialization" style="-fx-background-color: trnasparent;" text="Specialization" />
+      <Button layoutX="438.0" layoutY="505.0" mnemonicParsing="false" onAction="#goToConjurer" style="-fx-background-color: trnasparent;" text="Conjuration" />
+      <Button layoutX="257.0" layoutY="504.0" mnemonicParsing="false" onAction="#goToEmmiter" style="-fx-background-color: transparent;" text="Emmiter" />
+      <Button layoutX="71.0" layoutY="283.0" mnemonicParsing="false" onAction="#goToEnhancer" style="-fx-background-color: transparent;" text="Enhancer" />
    </children>
 </AnchorPane>
